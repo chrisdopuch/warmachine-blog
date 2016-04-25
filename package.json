@@ -1,31 +1,32 @@
 {
-	"name": "warmachine-blog",
-	"version": "0.0.1",
-	"description": "warmachine blog",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/chrisdopuch/warmachine-blog.git"
-	},
-	"author": "Chris Dopuch",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/chrisdopuch/warmachine-blog/issues"
-	},
-	"homepage": "https://github.com/chrisdopuch/warmachine-blog#readme",
-	"scripts": {
-		"start": "node ./server/bin/www"
-	},
-	"dependencies": {
-		"body-parser": "~1.13.2",
-		"cookie-parser": "~1.3.5",
-		"debug": "~2.2.0",
-		"express": "~4.13.1",
-		"jade": "~1.11.0",
-		"morgan": "~1.6.1",
-		"serve-favicon": "~2.3.0"
-	},
-	"devDependencies": {
-		"webpack": "^2.1.0-beta.2"
-	}
+  "name": "warmachine-blog",
+  "version": "0.0.1",
+  "description": "warmachine blog",
+  "main": "./server/bin/www",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdopuch/warmachine-blog.git"
+  },
+  "author": "Chris Dopuch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdopuch/warmachine-blog/issues"
+  },
+  "homepage": "https://github.com/chrisdopuch/warmachine-blog#readme",
+  "scripts": {
+    "start": "node ./server/bin/www",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.2"
+  }
 }
