@@ -1,0 +1,19 @@
+{
+  "name": "warmachine-blog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests provided\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdopuch/warmachine-blog.git"
+  },
+  "author": "Chris Dopuch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdopuch/warmachine-blog/issues"
+  },
+  "homepage": "https://github.com/chrisdopuch/warmachine-blog#readme"
+}
