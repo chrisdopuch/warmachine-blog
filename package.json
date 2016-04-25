@@ -1,7 +1,7 @@
 {
   "name": "warmachine-blog",
   "version": "0.0.1",
-  "description": "",
+  "description": "warmachine blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"no tests provided\""
