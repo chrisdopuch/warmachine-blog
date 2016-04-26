@@ -1,1 +1,3 @@
-console.log('it works');
+require('./styles/style.css');
+
+document.write('it works');
